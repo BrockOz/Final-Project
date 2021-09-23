@@ -12,6 +12,10 @@
 - Critical Vulnerabilities
 - Exploitation
 
+### Target 1  
+
+### Exposed Services
+
 Netdiscover results identify the IP addresses of Targets on the network:
 
 ```bash
@@ -19,10 +23,6 @@ Netdiscover results identify the IP addresses of Targets on the network:
 ```
 
 ![Netdiscover IP Address](https://github.com/karma-786/Final-Project/blob/main/Final%20Project%20-%20KVP/Day%201%20%26%202/Target%201/netdiscover_-r_192_168_1_255_16.PNG)  
-
-### Target 1  
-
-### Exposed Services
 
 Nmap scan results for **`Target 1`** reveal the below services and OS details:
 
