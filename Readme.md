@@ -122,3 +122,15 @@ These resources are provided as optional, recommended resources to supplement th
 
 
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.    
+
+## Week 24 Homework Solution: Final Project
+
+Refer to the following solution files for the homework worksheets: 
+
+* [Week 24 Homework Solution: Final Project - Red Team: Summary of Operations](https://github.com/karma-786/Final-Project/blob/main/OffensiveTemplate.md)  
+* [Week 24 Homework Solution: Final Project - Blue Team: Summary of Operations](https://github.com/karma-786/Final-Project/blob/main/DefensiveTemplate.md)  
+* [Week 24 Homework Solution: Final Project - Network Forensic Analysis Report](https://github.com/karma-786/Final-Project/blob/main/NetworkTemplate.md)  
+* [Week 24 Homework Solution: Final Project - Group Presentation](https://github.com/karma-786/Final-Project/blob/main/Final%20Project%20-%20KVP/Offensive%20Final%20Project%20Presentation%20-%20Group.pdf)  
+
+---
+© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
