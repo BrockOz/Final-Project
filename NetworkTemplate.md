@@ -51,8 +51,8 @@ You must inspect your traffic capture to answer the following questions:
 ![Export](https://github.com/karma-786/Final-Project/blob/main/Final%20Project%20-%20KVP/Day%203/Part_1-3a.PNG)  
 ![VirusTotal.com](https://github.com/karma-786/Final-Project/blob/main/Final%20Project%20-%20KVP/Day%203/Part_1-a4.PNG)  
 5. What kind of malware is this classified as?
-   -  **This is a Trojan named:** `Trojan.Mint.Zamg.O`
-![This is a Trojan named: Trojan.Mint.Zamg.O](https://github.com/karma-786/Final-Project/blob/main/Final%20Project%20-%20KVP/Day%203/Part_1-4.PNG)  
+   -  **The Trojan name is:** `Trojan.Mint.Zamg.O`
+![The Trojan name is: Trojan.Mint.Zamg.O](https://github.com/karma-786/Final-Project/blob/main/Final%20Project%20-%20KVP/Day%203/Part_1-4.PNG)  
 
 ## Vulnerable Windows Machine
 
