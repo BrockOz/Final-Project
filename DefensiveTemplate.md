@@ -77,6 +77,39 @@ HTTP Request Size Monitor is implemented as follows:
   - **Reliability**: No, this alert doesn't generate an excessive amount of false positives because DDOS attacks submit requests within seconds, not within minutes. **`Medium`**
 ![HTTP Request Size Monitor](https://github.com/karma-786/Final-Project/blob/main/Final%20Project%20-%20KVP/Day%201%20%26%202/HTTP_Request_Size_Monitor_Create.PNG)  
 
+## Security Recommendations
+
+The logs and alerts generated during the assessment suggest that this network is susceptible to several active threats, identified by the alerts above. Alerts only detect malicious behavior, but do not stop it. Each alert above pertains to a specific vulnerability/exploit. In addition to watching for occurrences of such threats, the network should be hardened against them. The Blue Team suggests that IT implement the fixes below to protect the network:
+
+- Enumeration and Brute Force Attacks
+  - **Patch**: WordPress Hardening
+    - Lock out accounts after a predetermined number of failed attempts and implement multi-factor authentication (MFA).
+    - Disable the WordPress REST API and XML-RPC if it’s not needed and configure the web server to block requests to /?author=<number>.
+    - Prohibit exposure of /wp-admin and /wp-login.php.
+
+  - **Why It Works**:
+    - Account lock outs will mitigate credential stuffing and multi-factor authentication will mitigate password spraying attacks.
+    - WPScan uses REST API to enumerate users, and XML-RPC uses HTTP as its transport mechanism for data.
+    - WordPress permalinks can be set to include an author and preventing exposure of WordPress login portals will help mitigate brute force attacks.
+
+- Code Injection in HTTP Requests (XSS and CRLF) and DDOS
+  - **Patch**: Code Injection/DDOS Hardening
+    - Implementation of HTTP Request Limit on the web server.
+    - Implementation of server-side input validation to prevent malicious scripts from being stored on the web server.
+    - Implementation of client-side input validation to prevent input of malicious scripts.
+
+  - **Why It Works**:
+    - If an HTTP request URL length, query string and over size limit of the request a 404 range of errors will occur.
+    - Input validation can help protect against malicious data a malicious actor attempts to send to the server via the website or application in a HTTP request.
+
+- Malicious Code (Malware and Viruses) and Resource Utilization
+  - **Patch**: Malware Hardening
+    - Implementation of Antivirus software
+    - Implementation of a Host Based Intrusion Detection System (HIDS)
+
+  - **Why It Works**:
+    - Antivirus software is effective in detection and removal of malicious threats against computers and a robust security option in general which should be layered into a Defense in Depth approach to Cyber Security.
+    - Host Based Intrusion Detection Systems monitor and analyze the entire file system of a host system and generate alerts if baseline deviation is detected.  
 
 ---
   
