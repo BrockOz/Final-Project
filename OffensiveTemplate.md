@@ -348,14 +348,19 @@ root@Kali:~# find /var/www -type f -iname 'flag*'
 - flag4.txt: `flag4{df2bc5e951d91581467bb9a2a8ff4425}`  
 ![Flag 4](https://github.com/karma-786/Final-Project/blob/main/Final%20Project%20-%20KVP/Day%201%20%26%202/Target%202/target2_flag4a.PNG)  
 ```bash
-___ ___ ___
+ ___                   ___ ___
 | _ \__ ___ _____ _ _ |_ _|_ _|
-| / _` \ V / -_) ' \ | | | |
-|_|_\__,_|\_/\___|_||_|___|___|
+|   / _` \ V / -_) ' \ | | | |
+|_|_\__,_|\_/\___|_||_|___|___|  
+
 flag4{df2bc5e951d91581467bb9a2a8ff4425}
+
 CONGRATULATIONS on successfully rooting RavenII
+
 I hope you enjoyed this second interation of the Raven VM
+
 Hit me up on Twitter and let me know what you thought:
+
 @mccannwj / wjmccann.github.io
 ```  
   - Exploit Used:  
