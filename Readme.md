@@ -133,26 +133,26 @@ Refer to the following solution files for the homework worksheets:
 
 ### Defensive Security Summary
 
-[Week 24 Homework Solution: Final Project - Blue Team: Summary of Operations](https://github.com/karma-786/Final-Project/blob/main/DefensiveTemplate.md)  
+[Blue Team: Summary of Operations](https://github.com/karma-786/Final-Project/blob/main/DefensiveTemplate.md)  
 
 ### Network Forensics Summary
 
-[Week 24 Homework Solution: Final Project - Network Forensic Analysis Report](https://github.com/karma-786/Final-Project/blob/main/NetworkTemplate.md)  
+[Network Forensic Analysis Report](https://github.com/karma-786/Final-Project/blob/main/NetworkTemplate.md)  
 
 ## Network Topology
 
-![Network Topology](Images/Red_vs_Blue_Team_Network_Diagram.png)
+![Network Topology](https://github.com/karma-786/Final-Project/blob/main/Final%20Project%20-%20KVP/Day%201%20%26%202/Network%20Topology-Diagram.PNG)
 
 The Azure Lab Environment used for this Project consists of the following machines:
 
-| Name            	| IP Address     	| Operating System   	| Purpose                                       	|
-|-----------------	|----------------	|--------------------	|-----------------------------------------------	|
-| HYPER-V Manager 	| 192.168.1.0/24 	| Windows 10         	| Azure Hyper-V Machine hosting Virtual Network 	|
-| Kali Linux      	| 192.168.1.90   	| Debian Kali 5.4.0  	| Red Team Penetration Testing Machine          	|
-| ELK Stack       	| 192.168.1.100  	| Ubuntu 18.04       	| ELK Stack (Elastisearch and Kibana)           	|
-| Capstone        	| 192.168.1.105  	| Ubuntu 18.04       	| Vulnerable Web Server                         	|
-| Target 1        	| 192.168.1.110  	| Debian GNU/Linux 8 	| WordPress Host                                	|
-| Target 2        	| 192.168.1.115  	| Debian GNU/Linux 8 	| WordPress Host                                	|
+| Name              	| IP Address     	| Operating System          	| Purpose                                       	|
+|-------------------	|----------------	|---------------------------	|-----------------------------------------------	|
+| HYPER-V Host Manager 	| 192.168.1.0/24 	| Windows 10                	| Azure Hyper-V Machine hosting Virtual Network 	|
+| **Kali Linux**        	| 192.168.1.90   	| Debian Kali 5.4.0         	| Red Team Penetration (Attack) Testing Machine    	|
+| _ELK Stack_         	| 192.168.1.100  	| Ubuntu 18.04.1 LTS        	| ELK Stack (Elastisearch, Logstash and Kibana)    	|
+| Capstone          	| 192.168.1.105  	| Ubuntu 18.04.1 LTS         	| Vulnerable Web Server                         	|
+| **Target 1**          	| 192.168.1.110  	| Debian GNU/Linux 3.2 - 4.9 	| WordPress Host                                	|
+| **Target 2**          	| 192.168.1.115  	| Debian GNU/Linux 3.2 - 4.9 	| WordPress Host                                	|
 
 ### Final Group Project Submission
 
